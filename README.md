@@ -8,9 +8,14 @@ SENDGRID_EMAIL_API_KEY = (sendgrid API key, must be obtained from Sendgrid's web
 TRAVEL_SITE_URL = (link to US Gov Travel Covid 19 Restrictions page)
 SENDER = (email account from which the subscribers will be notified)
 
-# Tools used:
+# Related repositories
+
+* US Gov Travel Covid 19 Restrictions page scraper https://github.com/gonzalofh/travel-ban-updates
+# Tools used
 
 * SendGrid Email API https://app.sendgrid.com/
 * Google Cloud Functions https://cloud.google.com/functions
 * Google Cloud Datastore https://cloud.google.com/datastore
 * Python 3 
+
+# Related repositories
