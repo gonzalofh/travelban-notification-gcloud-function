@@ -2,7 +2,17 @@
 
 Google Cloud Function that receives a date from a web scraper on US Gov Travel Covid-19 restrictions page and notifies a list of email subscribers should the site has been updated recently 
 
-# Email screenshot
+# User story
+
+Given the US Gov Travel Covid-19 restrictions page:
+
+![us-gov-travel-covid-19](docs/us-gov-travel.png)
+
+Let's say, yesterday, the `Last updated` date was `June 23, 2021`. And that's the date we have in our DataStore.
+
+But today, the cron job runs again, triggers the web scraper, and returns a new date: `June 24, 2021`.
+
+In this case, the whole list of people that have subscribed to this point, will receive an email like the following: 
 
 ![email-screenshot](docs/email-screenshot.png)
 
