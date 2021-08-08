@@ -17,5 +17,3 @@ Google Cloud Function that receives a date from a web scraper on US Gov Travel C
 * Google Cloud Functions https://cloud.google.com/functions
 * Google Cloud Datastore https://cloud.google.com/datastore
 * Python 3 
-
-# Related repositories
