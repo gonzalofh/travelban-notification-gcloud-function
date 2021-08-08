@@ -4,9 +4,9 @@ Google Cloud Function that receives a date from a web scraper on US Gov Travel C
 
 # Environmental variables
 
-SENDGRID_EMAIL_API_KEY = (sendgrid API key, must be obtained from Sendgrid's website)
-TRAVEL_SITE_URL = (link to US Gov Travel Covid 19 Restrictions page)
-SENDER = (email account from which the subscribers will be notified)
+* SENDGRID_EMAIL_API_KEY = (sendgrid API key, must be obtained from Sendgrid's website)
+* TRAVEL_SITE_URL = (link to US Gov Travel Covid 19 Restrictions page)
+* SENDER = (email account from which the subscribers will be notified)
 
 # Related repositories
 
