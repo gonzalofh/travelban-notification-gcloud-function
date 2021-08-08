@@ -2,6 +2,10 @@
 
 Google Cloud Function that receives a date from a web scraper on US Gov Travel Covid-19 restrictions page and notifies a list of email subscribers should the site has been updated recently 
 
+# Email screenshot
+
+![email-screenshot](docs/email-screenshot.png)
+
 # Environmental variables
 
 * SENDGRID_EMAIL_API_KEY = (sendgrid API key, must be obtained from Sendgrid's website)
